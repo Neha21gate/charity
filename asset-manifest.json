@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/donate/static/css/main.9fec6f80.chunk.css",
+    "main.js": "/donate/static/js/main.e63a099d.chunk.js",
+    "main.js.map": "/donate/static/js/main.e63a099d.chunk.js.map",
+    "runtime-main.js": "/donate/static/js/runtime-main.34bde4ea.js",
+    "runtime-main.js.map": "/donate/static/js/runtime-main.34bde4ea.js.map",
+    "static/js/2.159aa855.chunk.js": "/donate/static/js/2.159aa855.chunk.js",
+    "static/js/2.159aa855.chunk.js.map": "/donate/static/js/2.159aa855.chunk.js.map",
+    "index.html": "/donate/index.html",
+    "static/css/main.9fec6f80.chunk.css.map": "/donate/static/css/main.9fec6f80.chunk.css.map",
+    "static/js/2.159aa855.chunk.js.LICENSE.txt": "/donate/static/js/2.159aa855.chunk.js.LICENSE.txt",
+    "static/media/Irform.3776c662.pdf": "/donate/static/media/Irform.3776c662.pdf",
+    "static/media/Data.css": "/donate/static/media/lady.e2cabec5.jpeg",
+    "static/media/oneonate.9a2e6e7a.jpg": "/donate/static/media/oneonate.9a2e6e7a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34bde4ea.js",
+    "static/js/2.159aa855.chunk.js",
+    "static/css/main.9fec6f80.chunk.css",
+    "static/js/main.e63a099d.chunk.js"
+  ]
+}
