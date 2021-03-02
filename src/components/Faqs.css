@@ -1,0 +1,22 @@
+.faq{
+    width: auto;
+    height:auto;
+    background-color: rgba(218, 223, 245, 0.671);
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+  
+}
+
+
+  .footer{
+    background: white;
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+   
+  }
+ 

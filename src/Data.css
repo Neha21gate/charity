@@ -1,0 +1,383 @@
+@charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Passion+One:400%22);
+
+
+.wrapper{
+    height: auto;
+    padding:0px;
+    position: sticky;
+    background-color: whitesmoke;
+    
+    }
+
+    .first-content{
+      width: auto;
+      height: 600px;  
+      background-image: url(./Images/lady.jpeg);
+      background-size: cover;
+     
+    }
+
+
+    .para
+    {
+      
+      font-size: 60px;
+      color: rgb(49, 49, 53);
+      font-weight: bolder;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+      
+    }
+  
+    
+.second-content{
+        width: 100%;
+        display:flex;
+        height: 400px;
+        flex-direction: column;
+        background: url(./Images/buttery.png) ;
+        background-position: right top;
+        background-repeat:no-repeat;
+        background-color: white;
+       
+    }
+.second-content h2{
+ 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight:bold;
+  float:left;
+  font-size: 30px;
+  padding-left: 12%;
+  padding-top: 8%;
+}
+.second-content p{
+  color:#262325; 
+  font-size:20px;
+  padding-left: 12%;
+   
+}
+    .secondscontent{
+      width: 100%;
+        display:flex;
+        height: 400px;
+        flex-direction: column;
+        background: url(./Images/cater.jpg) ;
+        background-position: left top;
+        background-repeat:no-repeat;
+        background-color: white;
+
+    }
+
+.secondscontent h2{
+ 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight:bold;
+  float:left;
+  font-size: 30px;
+  padding-left: 50%;
+  padding-top: 5%;
+}
+.secondscontent p{
+  color:#262325; 
+  font-size:20px;
+  padding-left: 50%;
+ 
+   
+}
+.about-us{
+  width: auto;
+  height: auto;
+   background-color: rgb(227, 227, 233);
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+   
+  
+ 
+ }
+
+ .about-us h1{
+ color:#327ba8 ;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-top: 10%;
+ 
+ }
+   
+
+    .contactus{
+      width: 100%;
+      height:700px;
+      background-color: white;
+      
+      }
+      .login-box2{
+        background-color: white;
+      }
+    .footer{
+      background: white;
+      height:70px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      
+    }
+  
+    table, th, td {
+     
+      font-size: 20px;
+    }
+    table{
+      height:400px;
+      width: auto;
+      margin-bottom: 5%;
+    }
+    
+    
+                               /* Media query start*/
+    
+    
+     @media screen and (min-width: 250px) and (max-width: 1280px) {
+    
+      .wrapper{
+        height: auto;
+        padding:0px;        }
+      
+    
+      .first-content{
+        
+        width: auto;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        display:center;
+        background-image: url(./Images/lady.jpeg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+      }
+      
+      .para{
+        width: auto;
+        font-size: 40px;
+       font-weight: bolder;
+        justify-content: center;
+        align-items: center;
+        position: relative; 
+        margin-top: 320px;
+        width: auto;
+        height: auto;
+        font-family:sans-serif;
+        text-shadow: 2px 2px 1px rgb(181, 181, 206);
+      }  
+      .second-content{
+        width: 100%;
+        display:flex;
+        height: auto;
+        flex-direction: column;
+        background: url(./Images/buttery.png) ;
+        background-position: right top;
+        background-repeat:no-repeat;
+        background-color: white;
+       
+    }
+.second-content h2{
+ 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight:bold;
+  float:left;
+  font-size: 30px;
+  padding-left: 7%;
+  padding-top: 60%;
+}
+.second-content p{
+  color:#262325; 
+  font-size:20px;
+  padding-left: 7%;
+   
+}
+    .secondscontent{
+      width: 100%;
+        display:flex;
+        height: auto;
+        flex-direction: column;
+        background: url(./Images/cater.jpg) ;
+        background-position: left top;
+        background-repeat:no-repeat;
+        background-color: white;
+
+    }
+
+.secondscontent h2{
+ 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight:bold;
+  float:left;
+  font-size: 30px;
+  padding-left: 50%;
+  padding-top: 50%;
+}
+.secondscontent p{
+  color:#262325; 
+  font-size:20px;
+  padding-left: 10%;
+  padding-right: 2%;
+ 
+   
+}
+.about-us{
+  width: auto;
+  height: auto;
+   background-color: rgb(227, 227, 233);
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+   padding: 5%;
+  
+ 
+ }
+
+ .about-us h1{
+ color:#327ba8 ;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin-top: 30%;
+ 
+ }
+
+ 
+
+    .footer{
+     
+      height:40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background:white;
+      align-items: center;
+    }
+   
+    table, th, td {
+     padding:2%;
+      font-size: 17px;
+    }
+    table{
+      height:700px;
+      width: auto;
+      margin-bottom: 5%;
+    }
+    
+    }
+     
+                                                          /* Media query end*/
+
+   
+    
+   
+      
+    @media (min-width: 700px) and (max-width: 1400px) {
+    
+      .first-content{
+        width: auto;
+        height: 600px;  
+        background-image: url(./Images/lady.jpeg);
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex; 
+      }
+      .para{
+        width: auto;
+        font-size: 40px;
+       font-weight: bolder;
+        justify-content: center;
+        align-items: center;
+        position: relative; 
+        width: auto;
+        height: auto;
+        margin-top: 550px;
+        font-family:sans-serif;
+        text-shadow: 2px 2px 1px rgb(181, 181, 206);
+      }  
+      .second-content{
+        width: 100%;
+        display:flex;
+        height: 400px;
+        flex-direction: column;
+        background: url(./Images/buttery.png) ;
+        background-position: right top;
+        background-repeat:no-repeat;
+        background-color: white;
+       
+    }
+.second-content h2{
+ 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight:bold;
+  float:left;
+  font-size: 30px;
+  padding-left: 12%;
+  padding-top: 8%;
+}
+.second-content p{
+  color:#262325; 
+  font-size:20px;
+  padding-left: 12%;
+   
+}
+    .secondscontent{
+      width: 100%;
+        display:flex;
+        height: 400px;
+        flex-direction: column;
+        background: url(./Images/cater.jpg) ;
+        background-position: left top;
+        background-repeat:no-repeat;
+        background-color: white;
+
+    }
+
+.secondscontent h2{
+ 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight:bold;
+  float:left;
+  font-size: 30px;
+  padding-left: 50%;
+  padding-top: 5%;
+ 
+}
+.secondscontent p{
+  color:#262325; 
+  font-size:20px;
+  padding-left: 50%;
+  padding-right: 2%;
+ 
+   
+}
+.about-us{
+  width: auto;
+  height: auto;
+   background-color: rgb(227, 227, 233);
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   display: flex;
+  
+  
+ 
+ }
+
+ .about-us h1{
+ color:#327ba8 ;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+ }
+
+
+    }
